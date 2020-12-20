@@ -1,1 +1,41 @@
 /* your styles go here */
+
+.social-icons a {
+  display: inline-block;
+  height: 3.5rem;
+  width: 3.5rem;
+  color: #fff !important;
+  border-radius: 100%;
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 3.5rem;
+  margin-right: 1rem;
+}
+
+.social-icons a:last-child {
+  margin-right: 0;
+}
+
+.social-icons a.linkedin {
+  background-color: #2867b2;
+}
+
+.social-icons a.linkedin:hover {
+  background-color: #2982d0;
+}
+
+.social-icons a.github {
+  background-color: #010101;
+}
+
+.social-icons a.github:hover {
+  background-color: #3c3f41;
+}
+
+.social-icons a.facebook {
+  background-color: #4460ae;
+}
+
+.social-icons a.facebook:hover {
+  background-color: #467ccc;
+}
